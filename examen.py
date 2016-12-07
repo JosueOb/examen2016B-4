@@ -24,7 +24,7 @@ print(tamanio(intes))
 
 def texto_mini():
     tam = 0
-    while tam <=100:
+    while tam <=100000:
         for i in range (0,len(intes)):
             for j in range(0,1):
                 archivo_min.append(intes[i][0])
@@ -33,7 +33,7 @@ texto_mini()
 
 def texto_max():
     tam = 0
-    while tam <=1000:
+    while tam <=1000000:
         for i in range (0,len(intes)):
             for j in range(0,1):
                 archivo_max.append(intes[i][0])

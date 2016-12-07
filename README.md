@@ -1,0 +1,21 @@
+# examen2016B-4
+Examen Bimestral
+Grupo #4
+
+Bryan Pilatuña   bryanpilatuna  25%
+Realizacion del ejercicio 1 y 2 programacion de la concatenacion de archivos el conteo y la busqueda por un nombre quemado
+
+Lizeth Toasa	 LizethToasa	16%
+Creacion de la funcion main y calculo del rectangulo 
+
+Josue Cando	 JosueOb	25%
+Realizacion del ejercicio 1 y 2 programacion de la concatenacion de archivos el conteo y la busqueda por un nombre quemado y por busqueda y calculo del tiempo
+
+David Chulde	 david-chulde	16%
+
+Creacion de la del menu de la pisicina y la cracion de la funcion del circulo 
+
+Katherine Montoya KattyMontoya	16%
+Creacion de la funcion regresar de la funcion de las formas y la principal 
+
+

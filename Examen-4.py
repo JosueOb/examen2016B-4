@@ -5,7 +5,7 @@
 
 #EXAMEN BIMESTRAL
 
-#FECHA:07/12/2016
+#FECHA:07-12-2016
 
 import sys
 

@@ -30,7 +30,6 @@ def texto_mini():
                 archivo_min.append(intes[i][0])
         tam= tam+tamanio(intes)
 texto_mini()
-print(archivo_min)
 
 def texto_max():
     tam = 0
@@ -40,7 +39,6 @@ def texto_max():
                 archivo_max.append(intes[i][0])
         tam= tam+tamanio(intes)
 texto_max()
-print(archivo_max)
 
 def texto_min():
     archivo=open('integrantes100kb.txt','w')

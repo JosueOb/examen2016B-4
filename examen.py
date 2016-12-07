@@ -37,14 +37,13 @@ def texto_max():
 texto_max()
 print(archivo_max)
 
-##def creartxt():
-##    archivo=open('integrantes.txt','w')
-##    archivo.close()
-##creartxt()
+def creartxt():
+    archivo=open('integrantes.txt','w')
+    archivo.close()
+creartxt()
+def grabartxt(a):
+    archi=open('integrantes.txt','a')
+    
+    
+    archi.close() 
 
-##def aleatorio():
-##    integrante = "nombre"+str(random.randrange(2))
-##    return integrante
-##
-##
-##print(aleatorio())

@@ -16,7 +16,7 @@ def leertxt():
     while linea!="":
         print(linea)
         for i in range(len(linea)):
-            if linea[i] =="Pilatuña":
+            if linea[i] =="Bryan":
                 b=b+1
         a=len(linea)-b
         linea=archi.readline()

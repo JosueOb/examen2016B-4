@@ -11,7 +11,7 @@ def grabartxt(a):
 
 def leertxt():
     b=0
-    archi=open('integrantes1000kb.txt','r')
+    archi=open('integrantes100kb.txt','r')
     linea=archi.readline()
     while linea!="":
         print(linea)

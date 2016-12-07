@@ -1,10 +1,15 @@
-import random
-nombre1 = "Josue Cando"
-nombre2= "Bryan Pilatuña"
+
+nombre1 = "Josue Cando "
+nombre2= "Bryan Pilatuña "
+nombre3 ="Lizeth Toasa "
+nombre4="Edison Chulde "
+nombre5 = "Katherine Montoya"
 inte1 = [nombre1,len(nombre1)]
 inte2 = [nombre2,len(nombre2)]
-tamanio = 0
-intes = [inte1,inte2]
+inte3 = [nombre3,len(nombre3)]
+inte4 = [nombre4,len(nombre4)]
+inte5 = [nombre5,len(nombre5)]
+intes = [inte1,inte2,inte3,inte4,inte4]
 archivo_min = []
 archivo_max = []
 
@@ -37,13 +42,21 @@ def texto_max():
 texto_max()
 print(archivo_max)
 
-def creartxt():
-    archivo=open('integrantes.txt','w')
+def texto_min():
+    archivo=open('integrantes100kb.txt','w')
     archivo.close()
-creartxt()
-def grabartxt(a):
-    archi=open('integrantes.txt','a')
+    archi=open('integrantes100kb.txt','a')
+    for i in range(len(archivo_min)):
+        archi.write(archivo_min[i])
+    archi.close()
     
-    
+def texto_max():
+    archivo=open('integrantes1000kb.txt','w')
+    archivo.close()
+    archi=open('integrantes1000kb.txt','a')
+    for i in range(len(archivo_max)):
+        archi.write(archivo_max[i])
     archi.close() 
 
+texto_min()
+texto_max()

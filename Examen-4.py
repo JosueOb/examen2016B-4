@@ -48,7 +48,7 @@ def circ():
     print("El Volumen de una piscina Circular es:",volumen)
     
 def reg():
-    x=int(input("\nDesea repetir el proceso 1:SI 2:NO: "))
+    x=int(input("\nDesea repetir el proceso 1=SI 2=NO: "))
     if x==1:
         menu_piscina()
         piscina()
